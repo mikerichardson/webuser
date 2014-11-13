@@ -16,6 +16,7 @@
  export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin
  export AWS_ACCESS_KEY=awssecretkeyhash
  export AWS_SECRET_KEY=awssecrestkeyhash
+ export EC2_URL=https://ec2.us-west-2.amazonaws.com
  apt-get install -y ec2-api-tools
  ec2-describe-regions
  apt-get -y install awscli
